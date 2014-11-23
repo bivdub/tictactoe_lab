@@ -1,27 +1,24 @@
-/* centered columns styles */
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
+
+div.game-row {
+	height: 80px;
+	margin: 0 auto;
+
 }
 
-.tic {
-	width: 80px;
-	height: 75px;
+.col-md-4 {
+	height: 80px;
 }
 
-.X {
-	
+.X:before {
+	color: blue;
+	content: "X";
+	font-size: 50px;
 }
 
-.0 {
-
+.O:before {
+	color: red;
+	content: "O";
+	font-size: 50px;
 }
 
 #t1 {

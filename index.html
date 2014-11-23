@@ -11,47 +11,35 @@
 <body>
 	<div class="container text-center">
 		<div class="row">
-			<h1>Tic-Tac-Toe!<br>
-			<small>Cats vs. Cage Edition</small><br>
-			<span class="currentMove">Cat's Move</span></h1>
+			<h1>Tic-Tac-Toe!<br><span class="currentMove">X's Move</span></h1>
+			<div class="checkbox">
+			    <label>
+			      <input type="checkbox" id="check"> Play Against Ai?
+			    </label>
+			 </div>
 		</div>
-
-		<div class="row row-centered">
-			<div class="col-xs-1 col-centered tic" id="t1">
-			
-			</div>
-			<div class="col-xs-1 col-centered tic" id="t2">
-				
-			</div>
-			<div class="col-xs-1 col-centered tic" id="t3">
-				
-			</div>
-		</div>
-		<div class="row row-centered">
-			<div class="col-xs-1 col-centered tic" id="t4">
-				
-			</div>
-			<div class="col-xs-1 col-centered tic" id="t5">
-				
-			</div>
-			<div class="col-xs-1 col-centered tic" id="t6">
-				
-			</div>
-		</div>
-		<div class="row row-centered">
-			<div class="col-xs-1 col-centered tic" id="t7">
-				
-			</div>
-			<div class="col-xs-1 col-centered tic" id="t8">
-				
-			</div>
-			<div class="col-xs-1 col-centered tic" id="t9">
-				
-			</div>
-		</div>
-		<div class="row">
-			<br><br>
+		<div class = "row">
 			<button type="button" class="btn btn-default" id="resetButton">Reset</button>
+		</div>
+		
+
+		<div class="col-md-4 col-md-offset-4">
+			<div class="row game-row ">
+				<div class="col-md-4 tic" id="t1"></div>
+				<div class="col-md-4 tic" id="t2"></div>
+				<div class="col-md-4 tic" id="t3"></div>
+			</div>
+			<div class="row game-row ">
+				<div class="col-md-4 tic" id="t4"></div>
+				<div class="col-md-4 tic" id="t5"></div>
+				<div class="col-md-4 tic" id="t6"></div>
+			</div>
+			<div class="row game-row ">
+				<div class="col-md-4 tic" id="t7"></div>
+				<div class="col-md-4 tic" id="t8"></div>
+				<div class="col-md-4 tic" id="t9"></div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
