@@ -1,0 +1,64 @@
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.tic {
+	width: 80px;
+	height: 75px;
+}
+
+.X {
+}
+
+.0 {
+
+}
+
+#t1 {
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#t2 {
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#t3 {
+	border-bottom: 2px solid black;
+}
+
+#t4 {
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#t5 {
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#t6 {
+	border-bottom: 2px solid black;
+}
+
+#t7 {
+	border-right: 2px solid black;
+}
+
+#t8 {
+	border-right: 2px solid black;
+}
+
+#t9 {
+
+}
