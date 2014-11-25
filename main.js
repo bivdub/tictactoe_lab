@@ -89,7 +89,11 @@ document.addEventListener('DOMContentLoaded', function() {
           document.querySelector('.currentMove').innerText = "O's Move";
           turn++;
           if (aiPlay === true) {
-            aiMove(0);
+            //to add Delay to function
+            // setTimeout(function () {
+            //   aiMove(0); 
+            // }, 500);
+          aiMove(0);
             turn++;
           }
         } else {
